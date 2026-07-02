@@ -1,15 +1,23 @@
-import { useState } from 'react'
-import './App.css'
-import Home from './pages/Home'
+import { useAuth } from "./context/AuthContext";
+
 function App() {
-  const [count, setCount] = useState(0)
+  const { currentUser } = useAuth();
 
   return (
-    <>
-      <div>Hello</div>
-      <Home />
-    </>
-  )
+    <div style={{ padding: "40px" }}>
+      <h1>RapidFire</h1>
+
+      {currentUser ? (
+        <>
+          <h2>Logged In ✅</h2>
+          <p>{currentUser.displayName}</p>
+          <p>{currentUser.email}</p>
+        </>
+      ) : (
+        <h2>Not Logged In ❌</h2>
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
