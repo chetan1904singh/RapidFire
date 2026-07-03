@@ -4,6 +4,7 @@ import { Server } from "socket.io";
 import app from "./app.js";
 import { auth } from "./firebase/firebaseAdmin.js";
 import socketHandler from "./socket/socketHandler.js";
+import "dotenv/config";
 
 const server = http.createServer(app);
 
