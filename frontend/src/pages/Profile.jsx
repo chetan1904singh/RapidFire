@@ -1,34 +1,40 @@
-import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import api from "../services/axios";
+import { useSocket } from "../context/SocketContext";
 
 function Profile() {
   const { currentUser, logout } = useAuth();
+  const socket = useSocket();
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    async function testBackend() {
-      try {
-        const token = await currentUser.getIdToken();
+  const handleLogout = async () => {
+    socket.disconnect();
+    await logout();
+    navigate("/login");
+  };
 
-        console.log("Firebase Token:", token);
+  return (
+    <div style={{ padding: 30 }}>
+      <h2>Profile</h2>
 
-        const res = await api.get("/api/profile", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        });
+      <p>
+        <strong>Name:</strong> {currentUser?.displayName}
+      </p>
 
-        console.log("Backend Response:", res.data);
-      } catch (err) {
-        console.error(err.response?.data || err.message);
-      }
-    }
+      <p>
+        <strong>Email:</strong> {currentUser?.email}
+      </p>
 
-    if (currentUser) {
-      testBackend();
-    }
-  }, [currentUser]);
+      <br />
 
+      <button onClick={() => navigate("/matchmaking")}>
+        🎮 Play Online
+      </button>
+
+      <br />
+      <br />
+
+      <button onClick={handleLogout}>
   return (
   <div
     className="min-h-screen flex items-center justify-center bg-[#0f172a] px-6"
