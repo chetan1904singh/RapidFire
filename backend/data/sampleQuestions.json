@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "domain": "Physics",
+    "question": "According to Noether's theorem, what conserved quantity is associated with the time translation symmetry of a physical system?",
+    "options": ["Momentum", "Angular Momentum", "Energy", "Electric Charge"],
+    "answer": 2
+  },
+  {
+    "id": 2,
+    "domain": "Physics",
+    "question": "What is the SI unit of magnetic flux?",
+    "options": ["Tesla", "Weber", "Henry", "Gauss"],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "domain": "Physics",
+    "question": "Which fundamental force is mediated by gluons?",
+    "options": ["Weak Nuclear Force", "Strong Nuclear Force", "Electromagnetism", "Gravity"],
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "domain": "Physics",
+    "question": "What phenomenon occurs when a wave bends around the edges of an obstacle or an aperture?",
+    "options": ["Refraction", "Interference", "Dispersion", "Diffraction"],
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "domain": "Physics",
+    "question": "Which elementary particle is considered the carrier of the electromagnetic force?",
+    "options": ["Photon", "Electron", "Neutrino", "Quark"],
+    "answer": 0
+  },
+  {
+    "id": 6,
+    "domain": "Chemistry",
+    "question": "What is the molecular geometry of Xenon tetrafluoride (XeF4) according to VSEPR theory?",
+    "options": ["Tetrahedral", "Square Planar", "Octahedral", "Trigonal Bipyramidal"],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "domain": "Chemistry",
+    "question": "Which transition metal is commonly used as a catalyst in the Haber-Bosch process for synthesizing ammonia?",
+    "options": ["Platinum", "Nickel", "Iron", "Palladium"],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "domain": "Chemistry",
+    "question": "What is the hybridization of the carbon atoms in a terminal alkyne?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer": 0
+  },
+  {
+    "id": 9,
+    "domain": "Chemistry",
+    "question": "Which of the following elements possesses the highest electronegativity on the Pauling scale?",
+    "options": ["Oxygen", "Chlorine", "Fluorine", "Nitrogen"],
+    "answer": 2
+  },
+  {
+    "id": 10,
+    "domain": "Chemistry",
+    "question": "Which gas law states that the volume of an ideal gas is directly proportional to its absolute temperature at a constant pressure?",
+    "options": ["Boyle's Law", "Charles's Law", "Avogadro's Law", "Gay-Lussac's Law"],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "domain": "Biology",
+    "question": "Which cellular organelle is primarily responsible for the synthesis of lipids and steroid hormones?",
+    "options": ["Rough Endoplasmic Reticulum", "Golgi Apparatus", "Smooth Endoplasmic Reticulum", "Lysosome"],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "domain": "Biology",
+    "question": "During transcription, which enzyme is responsible for synthesizing RNA from a DNA template?",
+    "options": ["DNA Helicase", "RNA Polymerase", "DNA Ligase", "Reverse Transcriptase"],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "domain": "Biology",
+    "question": "What is the primary function of the hormone melatonin in the human body?",
+    "options": ["Regulating blood sugar", "Controlling the sleep-wake cycle", "Stimulating growth", "Regulating metabolism"],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "domain": "Biology",
+    "question": "To which phylum do octopuses, squid, and cuttlefish belong?",
+    "options": ["Arthropoda", "Cnidaria", "Mollusca", "Echinodermata"],
+    "answer": 2
+  },
+  {
+    "id": 15,
+    "domain": "Biology",
+    "question": "Which phase of meiosis is characterized by the separation of homologous chromosomes to opposite poles?",
+    "options": ["Anaphase I", "Anaphase II", "Metaphase I", "Prophase II"],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "domain": "Computer Science",
+    "question": "What is the average time complexity of a quicksort algorithm?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "domain": "Computer Science",
+    "question": "Which principle of Object-Oriented Programming allows objects of different classes to be treated as objects of a common superclass?",
+    "options": ["Encapsulation", "Abstraction", "Polymorphism", "Inheritance"],
+    "answer": 2
+  },
+  {
+    "id": 18,
+    "domain": "Computer Science",
+    "question": "What is the standard port number assigned for the Domain Name System (DNS)?",
+    "options": ["21", "80", "53", "443"],
+    "answer": 2
+  },
+  {
+    "id": 19,
+    "domain": "Computer Science",
+    "question": "Which data structure operates on a Last-In, First-Out (LIFO) principle?",
+    "options": ["Queue", "Stack", "Linked List", "Tree"],
+    "answer": 1
+  },
+  {
+    "id": 20,
+    "domain": "Computer Science",
+    "question": "In relational databases, what type of key ensures that each row in a table is unique?",
+    "options": ["Foreign Key", "Primary Key", "Composite Key", "Candidate Key"],
+    "answer": 1
+  },
+  {
+    "id": 21,
+    "domain": "Mathematics",
+    "question": "What is the Euler characteristic of a standard sphere?",
+    "options": ["0", "1", "2", "3"],
+    "answer": 2
+  },
+  {
+    "id": 22,
+    "domain": "Mathematics",
+    "question": "Which branch of mathematics deals extensively with the properties of spaces that are preserved under continuous deformations?",
+    "options": ["Calculus", "Linear Algebra", "Topology", "Number Theory"],
+    "answer": 2
+  },
+  {
+    "id": 23,
+    "domain": "Mathematics",
+    "question": "What is the sum of the interior angles of a regular heptagon (7-sided polygon)?",
+    "options": ["720 degrees", "900 degrees", "1080 degrees", "1260 degrees"],
+    "answer": 1
+  },
+  {
+    "id": 24,
+    "domain": "Mathematics",
+    "question": "Which famous unsolved problem proposes that every even integer greater than 2 can be expressed as the sum of two primes?",
+    "options": ["Riemann Hypothesis", "Fermat's Last Theorem", "Goldbach's Conjecture", "Collatz Conjecture"],
+    "answer": 2
+  },
+  {
+    "id": 25,
+    "domain": "Mathematics",
+    "question": "In linear algebra, what is the determinant of an orthogonal matrix?",
+    "options": ["0", "1 or -1", "Always 1", "Infinity"],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "domain": "History",
+    "question": "Which series of peace treaties signed in 1648 effectively ended the Thirty Years' War in the Holy Roman Empire?",
+    "options": ["Treaty of Versailles", "Treaty of Tordesillas", "Peace of Westphalia", "Congress of Vienna"],
+    "answer": 2
+  },
+  {
+    "id": 27,
+    "domain": "History",
+    "question": "Who was the first emperor of a unified China, known for his terracotta army?",
+    "options": ["Han Wudi", "Sun Yat-sen", "Qin Shi Huang", "Kublai Khan"],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "domain": "History",
+    "question": "Which battle in 1485 effectively ended the Wars of the Roses in England?",
+    "options": ["Battle of Hastings", "Battle of Agincourt", "Battle of Bosworth Field", "Battle of Towton"],
+    "answer": 2
+  },
+  {
+    "id": 29,
+    "domain": "History",
+    "question": "In what year did the Byzantine Empire finally collapse with the fall of Constantinople to the Ottoman Turks?",
+    "options": ["1204", "1389", "1453", "1492"],
+    "answer": 2
+  },
+  {
+    "id": 30,
+    "domain": "History",
+    "question": "Which civilization was conquered by Francisco Pizarro in the 16th century?",
+    "options": ["Aztec", "Maya", "Inca", "Olmec"],
+    "answer": 2
+  },
+  {
+    "id": 31,
+    "domain": "Geography",
+    "question": "What is the capital city of Burkina Faso?",
+    "options": ["Niamey", "Ouagadougou", "Bamako", "Dakar"],
+    "answer": 1
+  },
+  {
+    "id": 32,
+    "domain": "Geography",
+    "question": "Which strait separates the continent of Asia from North America?",
+    "options": ["Strait of Magellan", "Bering Strait", "Strait of Gibraltar", "Strait of Hormuz"],
+    "answer": 1
+  },
+  {
+    "id": 33,
+    "domain": "Geography",
+    "question": "What is the name of the deepest known point in the Earth's oceans?",
+    "options": ["Tonga Trench", "Puerto Rico Trench", "Mariana Trench", "Java Trench"],
+    "answer": 2
+  },
+  {
+    "id": 34,
+    "domain": "Geography",
+    "question": "Which African nation is the most populous on the continent?",
+    "options": ["Egypt", "Ethiopia", "South Africa", "Nigeria"],
+    "answer": 3
+  },
+  {
+    "id": 35,
+    "domain": "Geography",
+    "question": "Lake Victoria is bordered by Uganda, Kenya, and which other country?",
+    "options": ["Tanzania", "Rwanda", "Burundi", "Democratic Republic of the Congo"],
+    "answer": 0
+  },
+  {
+    "id": 36,
+    "domain": "Literature",
+    "question": "Who wrote the epic allegory 'The Faerie Queene', dedicated to Queen Elizabeth I?",
+    "options": ["John Milton", "Geoffrey Chaucer", "Edmund Spenser", "William Shakespeare"],
+    "answer": 2
+  },
+  {
+    "id": 37,
+    "domain": "Literature",
+    "question": "What was the pen name of the Victorian novelist Mary Ann Evans?",
+    "options": ["Currer Bell", "George Eliot", "Acton Bell", "George Sand"],
+    "answer": 1
+  },
+  {
+    "id": 38,
+    "domain": "Literature",
+    "question": "In Gabriel García Márquez's 'One Hundred Years of Solitude', what is the name of the fictional town?",
+    "options": ["Comala", "Macondo", "Santa Maria", "Yoknapatawpha"],
+    "answer": 1
+  },
+  {
+    "id": 39,
+    "domain": "Literature",
+    "question": "Which literary movement is associated with Goethe's 'The Sorrows of Young Werther'?",
+    "options": ["Romanticism", "Sturm und Drang", "Realism", "Naturalism"],
+    "answer": 1
+  },
+  {
+    "id": 40,
+    "domain": "Literature",
+    "question": "Who is the playwright of the American classic 'The Glass Menagerie'?",
+    "options": ["Arthur Miller", "Eugene O'Neill", "Edward Albee", "Tennessee Williams"],
+    "answer": 3
+  },
+  {
+    "id": 41,
+    "domain": "Art",
+    "question": "Which avant-garde art movement was co-founded by Pablo Picasso and Georges Braque?",
+    "options": ["Surrealism", "Fauvism", "Cubism", "Dadaism"],
+    "answer": 2
+  },
+  {
+    "id": 42,
+    "domain": "Art",
+    "question": "Who designed the iconic Guggenheim Museum located in Bilbao, Spain?",
+    "options": ["Frank Lloyd Wright", "Frank Gehry", "Zaha Hadid", "Le Corbusier"],
+    "answer": 1
+  },
+  {
+    "id": 43,
+    "domain": "Art",
+    "question": "The painting technique utilizing tiny, distinct dots of color to form an image is known as what?",
+    "options": ["Impressionism", "Pointillism", "Chiaroscuro", "Fresco"],
+    "answer": 1
+  },
+  {
+    "id": 44,
+    "domain": "Art",
+    "question": "Which French sculptor created 'The Thinker' (Le Penseur)?",
+    "options": ["Auguste Rodin", "Edgar Degas", "Marcel Duchamp", "Claude Monet"],
+    "answer": 0
+  },
+  {
+    "id": 45,
+    "domain": "Art",
+    "question": "The architectural style characterized by flying buttresses, ribbed vaults, and large stained-glass windows is known as?",
+    "options": ["Romanesque", "Baroque", "Gothic", "Neoclassical"],
+    "answer": 2
+  },
+  {
+    "id": 46,
+    "domain": "Music",
+    "question": "What is the musical term for a gradual increase in tempo?",
+    "options": ["Ritardando", "Crescendo", "Accelerando", "Rubato"],
+    "answer": 2
+  },
+  {
+    "id": 47,
+    "domain": "Music",
+    "question": "Which diatonic mode is built on the second degree of the major scale?",
+    "options": ["Ionian", "Dorian", "Phrygian", "Mixolydian"],
+    "answer": 1
+  },
+  {
+    "id": 48,
+    "domain": "Music",
+    "question": "Who composed the controversial ballet 'The Rite of Spring', which caused a riot at its 1913 premiere?",
+    "options": ["Pyotr Ilyich Tchaikovsky", "Igor Stravinsky", "Claude Debussy", "Maurice Ravel"],
+    "answer": 1
+  },
+  {
+    "id": 49,
+    "domain": "Music",
+    "question": "How many strings does a standard double bass have?",
+    "options": ["4", "5", "6", "8"],
+    "answer": 0
+  },
+  {
+    "id": 50,
+    "domain": "Music",
+    "question": "Which interval consists of exactly six semitones?",
+    "options": ["Perfect fourth", "Perfect fifth", "Tritone", "Minor sixth"],
+    "answer": 2
+  },
+  {
+    "id": 51,
+    "domain": "Economics",
+    "question": "What is the term for a market structure characterized by a single buyer dominating a market?",
+    "options": ["Monopoly", "Monopsony", "Oligopoly", "Perfect Competition"],
+    "answer": 1
+  },
+  {
+    "id": 52,
+    "domain": "Economics",
+    "question": "The Phillips Curve illustrates an inverse relationship between unemployment and which other economic metric?",
+    "options": ["Interest rates", "Inflation", "GDP growth", "Exchange rates"],
+    "answer": 1
+  },
+  {
+    "id": 53,
+    "domain": "Economics",
+    "question": "Who wrote 'The General Theory of Employment, Interest and Money' (1936)?",
+    "options": ["Adam Smith", "Karl Marx", "Milton Friedman", "John Maynard Keynes"],
+    "answer": 3
+  },
+  {
+    "id": 54,
+    "domain": "Economics",
+    "question": "What economic concept describes the phenomenon where an attempt by all individuals to increase saving leads to a decrease in overall economic output?",
+    "options": ["Tragedy of the Commons", "Paradox of Thrift", "Gresham's Law", "Pareto Efficiency"],
+    "answer": 1
+  },
+  {
+    "id": 55,
+    "domain": "Economics",
+    "question": "Which coefficient is commonly used to measure the inequality of income distribution within a nation?",
+    "options": ["Beta coefficient", "Pearson correlation", "Gini coefficient", "Kendall tau"],
+    "answer": 2
+  },
+  {
+    "id": 56,
+    "domain": "Philosophy",
+    "question": "Which philosopher famously stated 'Cogito, ergo sum' (I think, therefore I am)?",
+    "options": ["John Locke", "Immanuel Kant", "René Descartes", "David Hume"],
+    "answer": 2
+  },
+  {
+    "id": 57,
+    "domain": "Philosophy",
+    "question": "The concept of the 'Übermensch' (Overman or Superman) was introduced by which philosopher?",
+    "options": ["Søren Kierkegaard", "Friedrich Nietzsche", "Arthur Schopenhauer", "Jean-Paul Sartre"],
+    "answer": 1
+  },
+  {
+    "id": 58,
+    "domain": "Philosophy",
+    "question": "Which branch of philosophy is primarily concerned with the nature of existence, being, and reality?",
+    "options": ["Epistemology", "Ethics", "Ontology", "Aesthetics"],
+    "answer": 2
+  },
+  {
+    "id": 59,
+    "domain": "Philosophy",
+    "question": "Who is the author of 'Critique of Pure Reason'?",
+    "options": ["Georg Wilhelm Friedrich Hegel", "Baruch Spinoza", "Immanuel Kant", "Karl Marx"],
+    "answer": 2
+  },
+  {
+    "id": 60,
+    "domain": "Philosophy",
+    "question": "Utilitarianism, an ethical theory maximizing overall well-being, was heavily developed by Jeremy Bentham and who else?",
+    "options": ["John Stuart Mill", "Thomas Hobbes", "Jean-Jacques Rousseau", "Aristotle"],
+    "answer": 0
+  },
+  {
+    "id": 61,
+    "domain": "Mythology",
+    "question": "In Norse mythology, what is the name of the giant wolf destined to swallow Odin during Ragnarök?",
+    "options": ["Jörmungandr", "Fenrir", "Sleipnir", "Garmr"],
+    "answer": 1
+  },
+  {
+    "id": 62,
+    "domain": "Mythology",
+    "question": "Which Greek hero navigated the Labyrinth and defeated the Minotaur?",
+    "options": ["Perseus", "Achilles", "Hercules", "Theseus"],
+    "answer": 3
+  },
+  {
+    "id": 63,
+    "domain": "Mythology",
+    "question": "In Egyptian mythology, who is the god of the afterlife, the underworld, and the dead?",
+    "options": ["Anubis", "Horus", "Osiris", "Ra"],
+    "answer": 2
+  },
+  {
+    "id": 64,
+    "domain": "Mythology",
+    "question": "Within the Hindu Trimurti, which deity is considered the preserver and protector of the universe?",
+    "options": ["Brahma", "Shiva", "Indra", "Vishnu"],
+    "answer": 3
+  },
+  {
+    "id": 65,
+    "domain": "Mythology",
+    "question": "Quetzalcoatl, the feathered serpent deity, belongs to which mythological pantheon?",
+    "options": ["Incan", "Aztec", "Mayan", "Olmec"],
+    "answer": 1
+  },
+  {
+    "id": 66,
+    "domain": "Astronomy",
+    "question": "What is the theoretical boundary around a black hole beyond which no light or other radiation can escape?",
+    "options": ["Accretion Disk", "Ergosphere", "Event Horizon", "Photon Sphere"],
+    "answer": 2
+  },
+  {
+    "id": 67,
+    "domain": "Astronomy",
+    "question": "What is the largest moon of the planet Saturn?",
+    "options": ["Europa", "Ganymede", "Titan", "Callisto"],
+    "answer": 2
+  },
+  {
+    "id": 68,
+    "domain": "Astronomy",
+    "question": "Based on its structural morphology, the Milky Way is classified as what type of galaxy?",
+    "options": ["Elliptical", "Lenticular", "Barred Spiral", "Irregular"],
+    "answer": 2
+  },
+  {
+    "id": 69,
+    "domain": "Astronomy",
+    "question": "What was the name of the first artificial Earth satellite, launched in 1957?",
+    "options": ["Vostok 1", "Sputnik 1", "Explorer 1", "Apollo 1"],
+    "answer": 1
+  },
+  {
+    "id": 70,
+    "domain": "Astronomy",
+    "question": "Excluding the Sun, what is the closest known star to the Earth?",
+    "options": ["Sirius", "Alpha Centauri A", "Proxima Centauri", "Barnard's Star"],
+    "answer": 2
+  },
+  {
+    "id": 71,
+    "domain": "Medicine",
+    "question": "What is the longest and widest single nerve in the human body?",
+    "options": ["Vagus nerve", "Femoral nerve", "Sciatic nerve", "Ulnar nerve"],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "domain": "Medicine",
+    "question": "Which organ in the human body is responsible for producing insulin?",
+    "options": ["Liver", "Gallbladder", "Pancreas", "Spleen"],
+    "answer": 2
+  },
+  {
+    "id": 73,
+    "domain": "Medicine",
+    "question": "What is the formal medical term for the collarbone?",
+    "options": ["Scapula", "Sternum", "Clavicle", "Patella"],
+    "answer": 2
+  },
+  {
+    "id": 74,
+    "domain": "Medicine",
+    "question": "Multiple Sclerosis is an autoimmune disease that primarily degrades what specific structural element of neurons?",
+    "options": ["Dendrites", "Axon terminals", "Myelin sheath", "Soma (cell body)"],
+    "answer": 2
+  },
+  {
+    "id": 75,
+    "domain": "Medicine",
+    "question": "A severe deficiency in Vitamin C leads to which historically significant disease?",
+    "options": ["Rickets", "Pellagra", "Beriberi", "Scurvy"],
+    "answer": 3
+  },
+  {
+    "id": 76,
+    "domain": "Linguistics",
+    "question": "What term describes the smallest linguistic unit within a language that carries meaning?",
+    "options": ["Phoneme", "Morpheme", "Lexeme", "Grapheme"],
+    "answer": 1
+  },
+  {
+    "id": 77,
+    "domain": "Linguistics",
+    "question": "The Sapir-Whorf hypothesis proposes a relationship between which two concepts?",
+    "options": ["Syntax and Semantics", "Language and Thought", "Dialects and Geography", "Speech and Hearing"],
+    "answer": 1
+  },
+  {
+    "id": 78,
+    "domain": "Linguistics",
+    "question": "Arabic, Hebrew, and Amharic belong to which major language family?",
+    "options": ["Indo-European", "Uralic", "Afroasiatic", "Sino-Tibetan"],
+    "answer": 2
+  },
+  {
+    "id": 79,
+    "domain": "Linguistics",
+    "question": "What is the study of the sound systems and abstract sound patterns of languages called?",
+    "options": ["Phonetics", "Phonology", "Morphology", "Pragmatics"],
+    "answer": 1
+  },
+  {
+    "id": 80,
+    "domain": "Linguistics",
+    "question": "Which constructed international auxiliary language was created by L. L. Zamenhof in 1887?",
+    "options": ["Ido", "Interlingua", "Volapük", "Esperanto"],
+    "answer": 3
+  },
+  {
+    "id": 81,
+    "domain": "Psychology",
+    "question": "Which Russian physiologist is famous for his experiments demonstrating classical conditioning in dogs?",
+    "options": ["B.F. Skinner", "John B. Watson", "Ivan Pavlov", "Albert Bandura"],
+    "answer": 2
+  },
+  {
+    "id": 82,
+    "domain": "Psychology",
+    "question": "What cognitive bias describes the tendency of people with low ability at a task to overestimate their ability?",
+    "options": ["Confirmation bias", "Halo effect", "Dunning-Kruger effect", "Anchoring bias"],
+    "answer": 2
+  },
+  {
+    "id": 83,
+    "domain": "Psychology",
+    "question": "Who is considered the founder of analytical psychology and introduced the concept of the collective unconscious?",
+    "options": ["Sigmund Freud", "Carl Jung", "Alfred Adler", "Erik Erikson"],
+    "answer": 1
+  },
+  {
+    "id": 84,
+    "domain": "Psychology",
+    "question": "In Maslow's hierarchy of needs, what is the highest level of psychological development?",
+    "options": ["Esteem", "Love and belonging", "Safety", "Self-actualization"],
+    "answer": 3
+  },
+  {
+    "id": 85,
+    "domain": "Psychology",
+    "question": "During which stage of sleep do the majority of vivid, narrative dreams occur?",
+    "options": ["NREM Stage 1", "NREM Stage 2", "Slow-wave sleep (Stage 3)", "REM sleep"],
+    "answer": 3
+  },
+  {
+    "id": 86,
+    "domain": "Political Science",
+    "question": "Who authored 'The Prince', a foundational text of modern political philosophy?",
+    "options": ["Thomas Hobbes", "John Locke", "Niccolò Machiavelli", "Jean-Jacques Rousseau"],
+    "answer": 2
+  },
+  {
+    "id": 87,
+    "domain": "Political Science",
+    "question": "What term describes a form of government in which a deity or religious leaders are recognized as the supreme ruling authority?",
+    "options": ["Oligarchy", "Autocracy", "Theocracy", "Plutocracy"],
+    "answer": 2
+  },
+  {
+    "id": 88,
+    "domain": "Political Science",
+    "question": "Which legal principle allows courts to determine the constitutionality of legislative acts?",
+    "options": ["Stare Decisis", "Judicial Review", "Habeas Corpus", "Eminent Domain"],
+    "answer": 1
+  },
+  {
+    "id": 89,
+    "domain": "Political Science",
+    "question": "Which international organization was founded in 1945 to replace the ineffective League of Nations?",
+    "options": ["NATO", "World Bank", "United Nations", "European Union"],
+    "answer": 2
+  },
+  {
+    "id": 90,
+    "domain": "Political Science",
+    "question": "What is the political science term for the supreme and absolute authority of a state within its territorial boundaries?",
+    "options": ["Federalism", "Sovereignty", "Legitimacy", "Hegemony"],
+    "answer": 1
+  },
+  {
+    "id": 91,
+    "domain": "Environmental Science",
+    "question": "Which international treaty, finalized in 1987, was designed to protect the ozone layer by phasing out the production of numerous substances?",
+    "options": ["Kyoto Protocol", "Paris Agreement", "Montreal Protocol", "Geneva Convention"],
+    "answer": 2
+  },
+  {
+    "id": 92,
+    "domain": "Environmental Science",
+    "question": "What term describes the process by which fertile land becomes increasingly arid and desert-like, typically as a result of drought or deforestation?",
+    "options": ["Eutrophication", "Salinization", "Desertification", "Erosion"],
+    "answer": 2
+  },
+  {
+    "id": 93,
+    "domain": "Environmental Science",
+    "question": "Which biome is characterized by extremely low temperatures, short growing seasons, and permafrost?",
+    "options": ["Taiga", "Savanna", "Tundra", "Chaparral"],
+    "answer": 2
+  },
+  {
+    "id": 94,
+    "domain": "Environmental Science",
+    "question": "What apex predator was famously reintroduced to Yellowstone National Park in 1995, triggering a trophic cascade?",
+    "options": ["Grizzly Bear", "Mountain Lion", "Gray Wolf", "Bald Eagle"],
+    "answer": 2
+  },
+  {
+    "id": 95,
+    "domain": "Environmental Science",
+    "question": "What is the most abundant anthropogenic greenhouse gas contributing to global climate change?",
+    "options": ["Methane", "Nitrous Oxide", "Carbon Dioxide", "Chlorofluorocarbons (CFCs)"],
+    "answer": 2
+  },
+  {
+    "id": 96,
+    "domain": "Religion",
+    "question": "Which historical figure is recognized as the founder of Buddhism?",
+    "options": ["Laozi", "Zoroaster", "Siddhartha Gautama", "Mahavira"],
+    "answer": 2
+  },
+  {
+    "id": 97,
+    "domain": "Religion",
+    "question": "The Great Schism of 1054 split mainstream Christianity into the Roman Catholic Church and which other major branch?",
+    "options": ["Protestantism", "Anglicanism", "Eastern Orthodox Church", "Coptic Orthodox Church"],
+    "answer": 2
+  },
+  {
+    "id": 98,
+    "domain": "Religion",
+    "question": "What is the central concept of non-violence and respect for all living things found in Jainism, Hinduism, and Buddhism?",
+    "options": ["Karma", "Dharma", "Ahimsa", "Moksha"],
+    "answer": 2
+  },
+  {
+    "id": 99,
+    "domain": "Religion",
+    "question": "Which indigenous religion of Japan revolves around the veneration of 'kami' (spirits or holy powers)?",
+    "options": ["Taoism", "Shinto", "Zen Buddhism", "Confucianism"],
+    "answer": 1
+  },
+  {
+    "id": 100,
+    "domain": "Religion",
+    "question": "What is the foundational sacred text of Islam, believed to be the verbatim word of God as revealed to Muhammad?",
+    "options": ["Torah", "Vedas", "Quran", "Tripitaka"],
+    "answer": 2
+  }
+]

@@ -1,43 +1,42 @@
-import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import api from "../services/axios";
+import { useSocket } from "../context/SocketContext";
 
 function Profile() {
   const { currentUser, logout } = useAuth();
+  const socket = useSocket();
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    async function testBackend() {
-      try {
-        const token = await currentUser.getIdToken();
-
-        console.log("Firebase Token:", token);
-
-        const res = await api.get("/api/profile", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        });
-
-        console.log("Backend Response:", res.data);
-      } catch (err) {
-        console.error(err.response?.data || err.message);
-      }
-    }
-
-    if (currentUser) {
-      testBackend();
-    }
-  }, [currentUser]);
+  const handleLogout = async () => {
+    socket.disconnect();
+    await logout();
+    navigate("/login");
+  };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 30 }}>
       <h2>Profile</h2>
 
-      <p>{currentUser?.displayName}</p>
+      <p>
+        <strong>Name:</strong> {currentUser?.displayName}
+      </p>
 
-      <p>{currentUser?.email}</p>
+      <p>
+        <strong>Email:</strong> {currentUser?.email}
+      </p>
 
-      <button onClick={logout}>Logout</button>
+      <br />
+
+      <button onClick={() => navigate("/matchmaking")}>
+        🎮 Play Online
+      </button>
+
+      <br />
+      <br />
+
+      <button onClick={handleLogout}>
+        Logout
+      </button>
     </div>
   );
 }
