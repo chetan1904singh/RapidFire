@@ -57,49 +57,97 @@ function QuizRoom() {
     );
   }
 
-  return (
-    <div style={{ padding: 40 }}>
-      <h2>
-        Question {question.questionNumber} / {question.totalQuestions}
-      </h2>
+ return (
+  <div className="min-h-screen flex items-center justify-center px-4 py-8">
+    <div className="w-full max-w-5xl bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl shadow-2xl p-8">
 
-      <h3>⏰ {timer}</h3>
-      <br />
+      {/* Header */}
+      <div className="flex justify-between items-center mb-8">
+        <div>
+          <h2 className="text-3xl font-bold text-white">
+            ⚡ RapidFire Quiz
+          </h2>
+          <p className="text-gray-300 mt-2">
+            Question {question.questionNumber} / {question.totalQuestions}
+          </p>
+        </div>
 
-      <h2>{question.question.question}</h2>
-      <br />
+        <div className="bg-red-500/20 border border-red-400 rounded-xl px-6 py-3">
+          <h2 className="text-3xl font-bold text-red-400">
+            ⏰ {timer}s
+          </h2>
+        </div>
+      </div>
 
-      {question.question.options.map((option, index) => (
-        <button
-          key={index}
-          onClick={() => submitAnswer(index)}
-          disabled={selected !== null} // FIX #3: Disable buttons after answering to prevent confusion
-          style={{
-            display: "block",
-            marginBottom: 15,
-            padding: 15,
-            width: "350px",
-            opacity: selected !== null && selected !== index ? 0.6 : 1, // Visual feedback
-            backgroundColor: selected === index ? "#e0e0e0" : "initial" // Visual feedback
-          }}
-        >
-          {option}
-        </button>
-      ))}
+      {/* Question */}
+      <div className="bg-white/5 rounded-2xl p-6 border border-white/10 mb-8">
+        <h2 className="text-2xl font-semibold text-white text-center">
+          {question.question.question}
+        </h2>
+      </div>
 
-      <hr />
-      
-      <h2>Scores</h2>
-      {/* FIX #2: Clean UI instead of JSON.stringify to ensure no UIDs ever render */}
-      <div>
-        {scores && Object.entries(scores).map(([playerName, score], index) => (
-           <h3 key={index} style={{ margin: "5px 0" }}>
-             {playerName}: {score}
-           </h3>
+      {/* Options */}
+      <div className="grid gap-5">
+        {question.question.options.map((option, index) => (
+          <button
+            key={index}
+            onClick={() => submitAnswer(index)}
+            disabled={selected !== null}
+            className={`
+              w-full text-left px-6 py-4 rounded-xl
+              transition-all duration-300
+              font-semibold text-lg
+
+              ${
+                selected === index
+                  ? "bg-blue-600 text-white scale-105 shadow-lg shadow-blue-500/50"
+                  : "bg-white/10 text-white hover:bg-blue-500/20 hover:border-blue-400"
+              }
+
+              ${
+                selected !== null && selected !== index
+                  ? "opacity-50"
+                  : ""
+              }
+
+              border border-white/20
+            `}
+          >
+            <span className="font-bold mr-3">
+              {String.fromCharCode(65 + index)}.
+            </span>
+            {option}
+          </button>
         ))}
       </div>
+
+      {/* Scoreboard */}
+      <div className="mt-10 border-t border-white/20 pt-8">
+        <h2 className="text-2xl font-bold text-yellow-400 mb-4">
+          🏆 Live Scoreboard
+        </h2>
+
+        <div className="space-y-3">
+          {scores &&
+            Object.entries(scores).map(([playerName, score], index) => (
+              <div
+                key={index}
+                className="flex justify-between items-center bg-white/5 rounded-xl px-5 py-4 border border-white/10"
+              >
+                <span className="text-white font-medium">
+                  {playerName}
+                </span>
+
+                <span className="text-green-400 text-xl font-bold">
+                  {score} pts
+                </span>
+              </div>
+            ))}
+        </div>
+      </div>
     </div>
-  );
+  </div>
+);
 }
 
 export default QuizRoom;

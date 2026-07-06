@@ -4,7 +4,7 @@ function App() {
   const { currentUser } = useAuth();
 
   return (
-    <div style={{ padding: "40px" }}>
+    <div className="app">
       <h1>RapidFire</h1>
 
       {currentUser ? (

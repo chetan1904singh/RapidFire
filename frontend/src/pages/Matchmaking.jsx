@@ -66,16 +66,32 @@ function Matchmaking() {
     };
 
     return (
-        <div style={{ padding: 30 }}>
-            <h1>Finding Opponent...</h1>
+  <div className="min-h-screen flex items-center justify-center px-4">
+    <div className="w-full max-w-md bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20 p-8 text-center">
+      
+      <h1 className="text-3xl font-bold text-white mb-4">
+        Finding Opponent
+      </h1>
 
-            <p>Please wait...</p>
+      <div className="flex justify-center my-6">
+        <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+      </div>
 
-            <button onClick={cancelSearch}>
-                Cancel
-            </button>
-        </div>
-    );
+      <p className="text-gray-300 mb-8">
+        Looking for a worthy opponent...
+        <br />
+        Please wait.
+      </p>
+
+      <button
+        onClick={cancelSearch}
+        className="w-full bg-red-600 hover:bg-red-700 transition-all duration-200 text-white font-semibold py-3 rounded-xl"
+      >
+        Cancel Search
+      </button>
+    </div>
+  </div>
+);
 }
 
 export default Matchmaking;
